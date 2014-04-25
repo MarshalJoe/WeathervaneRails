@@ -9,8 +9,12 @@
     <%= javascript_include_tag 'vendor/modernizr' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <!-- Font Awesome Icons -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="myBody">
     <header>
       <%= render 'layouts/navigation' %>
     </header>
@@ -18,5 +22,8 @@
        <%= render 'layouts/messages' %>
        <%= yield %>
     </main>
+    <div class="footer">
+      <a href=""><p>Donate Bitcoin</p></a>
+    </div>
   </body>
 </html>

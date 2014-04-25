@@ -1,0 +1,147 @@
+.myBody {
+	margin: 0;
+	background-color: white;
+}
+
+main {
+ margin: 0;
+ padding: 0;
+ background-color: white;
+}
+
+h1 {
+	color: white;
+	font-size: 5.5em;
+	font-family: "Helvetica";	
+}
+
+h2, h3, h4, h5, h6 {
+	margin:0;
+}
+
+.headerbar {
+	color: #231739;
+}
+
+.splash-photo {
+	margin: 0;
+	width: 100%;
+	height: 500px;
+	background-image: image-url("track-lights.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.splash-text {
+	position: fixed;
+	padding-top: 50px;
+	padding-left: 50px;
+	z-index: 3;
+}
+
+.splash-text p {
+	margin-top: -20px;
+	margin-left: 10px;
+	font-size: 1.25em;
+	font-family: "Oxygen";
+	color: white;
+}
+
+.infographics {
+	padding: 80px;
+	z-index: 4;
+	position: relative;
+	text-align: center
+}
+
+.infographics .large-container {
+	width: 100%;
+}
+
+.infographics .container {
+	width: 30%;
+	display: inline-block;
+}
+
+.infographics .mobile-logo {
+	font-size: 7em;
+	color: #231739;
+}
+
+.infographics .plus-logo {
+	font-size: 7em;
+	color: #231739;
+}
+
+.infographics .calendar-logo {
+	font-size: 7em;
+	color: #231739;
+}
+
+.infographics .button {
+	border-radius: 10px;
+	margin-top: 75px;
+	width: 120px;
+	height: 70px;
+	background-color: #231739;
+	color:white;
+	font-size: 1.5em;
+	font-family: "Oxygen";
+	transition: background-color 1s;
+	box-shadow: 1px 1px #666;
+}
+
+.infographics .button:hover {
+	background-color: #55acee;
+}
+
+.infographics h2 {
+	color:#231739;
+	font-size: 1.5em;
+	font-family: "Oxygen";
+}
+
+.second-photo {
+	width: 100%;
+	height: 500px;
+	background-image: image-url("clouds.jpg");
+	background-size: cover;
+	position: relative;
+}
+
+.second-photo .number {
+	color:white;
+	position: absolute;
+	bottom: 185px;
+	left: 50px;
+	z-index: 2;
+	font-size: 4em;
+	font-family: "Helvetica"; 
+}
+
+.second-photo p {
+	color:white;
+	font-family: "Oxygen";
+	position: absolute;
+	bottom: 120px;
+	left: 55px;
+	font-size: 1.5em;
+}
+
+.footer {
+	height: 50px;
+	background-color: #0C101E;
+}
+
+.footer p {
+	margin: 0;
+	padding-top: 15px;
+	padding-left: 15px;
+	color:white;
+	font-family: "Oxygen";
+	font-size: 1em;
+}
+
+#word {
+
+}
