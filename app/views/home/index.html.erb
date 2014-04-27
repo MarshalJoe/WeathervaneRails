@@ -35,7 +35,7 @@
 		</div>
 
 		<div class="row">
-			<input class="button" id="button" type="submit" value="Start">
+			<input class="button" id="button" value="Start">
 		</div>
 
 		<div class="row">
@@ -47,8 +47,8 @@
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$("#button").click(function () {
-					console.log("Hey!");
 					$(".questions").fadeIn("slow");
+					$(".button").css({"background-color": "#24193A"});
 				});		
 			})
 		</script>

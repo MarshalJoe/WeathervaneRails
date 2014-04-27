@@ -1,3 +1,20 @@
+// Foundation top-bar overrides
+
+// Background color for the top bar
+$topbar-bg: #42445A;
+
+// Link hover state 
+$topbar-link-bg-hover: #281D3D;
+
+// Font
+$topbar-link-font-size: rem-calc(30);
+$topbar-link-font-family: "Lato";
+
+// Height and margin
+$topbar-height: 55px;
+$topbar-margin-bottom: rem-calc(30);
+
+
 // import the CSS framework
 @import "foundation";
 

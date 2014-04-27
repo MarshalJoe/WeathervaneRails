@@ -19,11 +19,14 @@
       <%= render 'layouts/navigation' %>
     </header>
     <main role="main">
-       <%= render 'layouts/messages' %>
-       <%= yield %>
+      <%= render 'layouts/messages' %>
+      <%= yield %>
+      
+      <div class="footer">
+        <a href=""><p>Copyright &copy; Joe Marshall & Lara Grant 2014</p></a>
+      </div>
+    
     </main>
-    <div class="footer">
-      <a href=""><p>Donate Bitcoin</p></a>
-    </div>
+    
   </body>
 </html>

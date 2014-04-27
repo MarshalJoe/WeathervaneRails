@@ -1,3 +1,4 @@
+
 .myBody {
 	margin: 0;
 	background-color: white;
@@ -7,6 +8,10 @@ main {
  margin: 0;
  padding: 0;
  background-color: white;
+}
+
+input:focus {
+	border: none;
 }
 
 h1 {
@@ -74,14 +79,14 @@ h2, h3, h4, h5, h6 {
 }
 
 .infographics .questions {
-	margin-top: 50px;
+	margin-top: 35px;
 	height: 500px;
 	background-color: red;
 }
 
 .infographics .button {
 	border-radius: 10px;
-	margin-top: 75px;
+	margin-top: 50px;
 	width: 120px;
 	height: 70px;
 	background-color: #231739;
@@ -130,8 +135,8 @@ h2, h3, h4, h5, h6 {
 }
 
 .footer {
-	height: 50px;
-	background-color: #0C101E;
+	height: 100px;
+	background-color: #1F232C;
 }
 
 .footer p {
