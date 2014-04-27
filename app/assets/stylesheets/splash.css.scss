@@ -12,7 +12,7 @@ main {
 h1 {
 	color: white;
 	font-size: 5.5em;
-	font-family: "Helvetica";	
+	font-family: "Oxygen";	
 }
 
 h2, h3, h4, h5, h6 {
@@ -21,6 +21,11 @@ h2, h3, h4, h5, h6 {
 
 .headerbar {
 	color: #231739;
+}
+
+.vane {
+	font-family: "Lato";
+	margin-left: -12px;
 }
 
 .splash-photo {
@@ -146,6 +151,16 @@ h2, h3, h4, h5, h6 {
 @media (max-width: 600px) {
 	.calendar-logo, .mobile-logo {
 		margin-top: 75px;
+	}
+
+	.splash-text {
+		padding-left: 10px;
+		font-size: .7em;
+	}
+
+	.splash-text p {
+		margin-top: -10px;
+		font-size: 1.75em;
 	}
 
 }
