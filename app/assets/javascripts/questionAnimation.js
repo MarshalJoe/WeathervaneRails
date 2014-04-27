@@ -2,10 +2,10 @@
 // because (function(){}); doesn't seem to be
 // working
 
-$(document).ready(function() {
-	$("#button").click(function () {
-		console.log("Hey!");
-		$(".questions").fadeIn("slow");
-	});		
-})
+// $(document).ready(function() {
+// 	$("#button").click(function () {
+// 		console.log("Hey!");
+// 		$(".questions").fadeIn("slow");
+// 	});		
+// })
 
