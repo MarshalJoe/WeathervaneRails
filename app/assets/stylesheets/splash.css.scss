@@ -63,17 +63,7 @@ h2, h3, h4, h5, h6 {
 	display: inline-block;
 }
 
-.infographics .mobile-logo {
-	font-size: 7em;
-	color: #231739;
-}
-
-.infographics .plus-logo {
-	font-size: 7em;
-	color: #231739;
-}
-
-.infographics .calendar-logo {
+.plus-logo, .calendar-logo, .mobile-logo {
 	font-size: 7em;
 	color: #231739;
 }
@@ -148,5 +138,14 @@ h2, h3, h4, h5, h6 {
 }
 
 #word {
+
+}
+
+/* mobile-specific styling */
+
+@media (max-width: 600px) {
+	.calendar-logo, .mobile-logo {
+		margin-top: 75px;
+	}
 
 }
