@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default from: "alerts@Weathervane.com"
+  default from: "Alert@weathervane.com"
 
   # Subject can be set in your I18n file at config/locales/en.yml
   # with the following lookup:
@@ -7,9 +7,9 @@ class UserMailer < ActionMailer::Base
   #   en.user_mailer.alert_mail.subject
   #
   def alert_mail(user)
-    @greeting = "Heya "
+    @greeting = "Hi"
     @user = user
 
-    mail to: user.email, subject: "Alert"
+    mail to: user.email, subject: "Weathervane Alert"
   end
 end

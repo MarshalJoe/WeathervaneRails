@@ -15,4 +15,5 @@ gem 'figaro', :github=>"laserlemon/figaro"
 gem 'foundation-rails'
 group :development do
   gem 'rails_layout'
+  gem 'hirb'
 end

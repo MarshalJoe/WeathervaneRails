@@ -57,6 +57,7 @@ GEM
       railties (>= 3.1.0)
       sass (>= 3.2.0)
     hike (1.2.3)
+    hirb (0.7.1)
     i18n (0.6.9)
     jbuilder (2.0.6)
       activesupport (>= 3.0.0, < 5)
@@ -139,6 +140,7 @@ DEPENDENCIES
   devise
   figaro!
   foundation-rails
+  hirb
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.1.0)
