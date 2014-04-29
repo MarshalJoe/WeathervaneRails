@@ -13,6 +13,7 @@ gem 'spring',        group: :development
 gem 'devise'
 gem 'figaro', :github=>"laserlemon/figaro"
 gem 'foundation-rails'
+gem 'clockwork'
 group :development do
   gem 'rails_layout'
   gem 'hirb'
