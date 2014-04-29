@@ -14,19 +14,20 @@
     <!-- Font Awesome Icons -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   </head>
-  <body class="myBody">
-    <header>
-      <%= render 'layouts/navigation' %>
-    </header>
-    <main role="main">
-      <%= render 'layouts/messages' %>
-      <%= yield %>
-      
-      <div class="footer">
-        <a href=""><p>Copyright &copy; Joe Marshall & Lara Grant - 2014</p></a>
-      </div>
+  <body>
+    <div class="wrapper">
+      <header>
+        <%= render 'layouts/navigation' %>
+      </header>
+        <%= render 'layouts/messages' %>
     
-    </main>
+        <%= yield %>
+        <div class="push"></div>
+    </div>
+      
+    <div class="footer">
+      <p>Copyright &copy; Joe Marshall and Lara Grant - 2014</p>
+    </div>
     
   </body>
 </html>
