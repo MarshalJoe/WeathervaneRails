@@ -14,6 +14,7 @@ gem 'devise'
 gem 'figaro', :github=>"laserlemon/figaro"
 gem 'foundation-rails'
 gem 'clockwork'
+gem 'delayed_job_active_record'
 group :development do
   gem 'rails_layout'
   gem 'hirb'
